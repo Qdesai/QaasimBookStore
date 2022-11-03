@@ -13,12 +13,18 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.28" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.28" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.28" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\QaasimBooks.DataAccess\QaasimBooks.DataAccess.csproj" />
     <ProjectReference Include="..\QaasimBooks.Models\QaasimBooks.Models.csproj" />
     <ProjectReference Include="..\QaasimBooks.Utility\QaasimBooks.Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Customer\Views\Home\" />
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>

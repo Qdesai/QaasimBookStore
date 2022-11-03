@@ -43,3 +43,9 @@
 0342 as i build the project there is an error in the startup.cs
 0407 modified the models folder name and moved it
 0414 got the error for the ErrorViewModel but resolved it
+0421 created the file called SD.cs
+0422 added project reference 
+0425 added customers area to Areas
+0428 moved the HomeController to the areas folder 
+0431 edited the HomeController.sc and added the line [Area("Customer")]
+0440 created a home folder inside the views in Areas
