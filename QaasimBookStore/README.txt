@@ -53,3 +53,4 @@
 1037 moved the _viewimports and _viewstart under the ares folder
 1041 changed the path of _ViewStart 
 1045 added a new area named admin in the area folder 
+1046 deleted the data and models and controller folder
