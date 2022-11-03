@@ -55,4 +55,5 @@
 1045 added a new area named admin in the area folder 
 1046 deleted the data and models and controller folder
 1051 had an error from the start i was not able to get dropdown to work but is solved now cause i added the data-toggle="dropdown"
+1052 added a message so it looks nice
 1053 FINALLYYY DONEEE
