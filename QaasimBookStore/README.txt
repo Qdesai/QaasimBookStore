@@ -1,7 +1,7 @@
 ﻿------------------------------------- Assignment 2 README -------------------------------
 
 
-19 oct 2022 
+2022-11-09
 
 1043 Created  a default ASP.NET Core MVC application 
 -using .net Core 3. LTS
@@ -15,14 +15,14 @@
 1049 works perfectly now going on next 
 1050 creating the github repo..
 
-25 oct 2022 
+2022-11-25 
 
 1114 removed the flag (options => options.SignIn.RequireConfirmedAccount = true) form the startup.cs file line 33.
 1121 build the app and ran it.... IT works perfctly!!
 1125 Reviewed the github and uppdating the readme.md inside the github 
 1126 ALL DONE FOR THE DAY.
 
-03 November 2022 
+2022-11-03 
 
 0056 realized that i made a mistake and not selected the MVC app while creating the project so i made a new project.
 0112 downloaded the vapor bootstrap theme from the bootswatch.com and replacing the contents of the local bootstrap file. 
@@ -55,3 +55,4 @@
 1045 added a new area named admin in the area folder 
 1046 deleted the data and models and controller folder
 1051 had an error from the start i was not able to get dropdown to work but is solved now cause i added the data-toggle="dropdown"
+1053 FINALLYYY DONEEE
