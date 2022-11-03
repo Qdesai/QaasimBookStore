@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\QaasimBooks.DataAccess\QaasimBooks.DataAccess.csproj" />
     <ProjectReference Include="..\QaasimBooks.Models\QaasimBooks.Models.csproj" />
+    <ProjectReference Include="..\QaasimBooks.Utility\QaasimBooks.Utility.csproj" />
   </ItemGroup>
 
 </Project>
