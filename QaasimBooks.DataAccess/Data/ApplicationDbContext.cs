@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿/*using Microsoft.AspNet.Identity.EntityFramework;
+*/
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace QaasimBookStore.Data
+namespace QaasimBookStore.DataAccess.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
