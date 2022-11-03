@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32901.82
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QaasimBookStore", "QaasimBookStore\QaasimBookStore.csproj", "{62EFBB68-7E1B-498B-A850-5557051DB5B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QaasimBookStore", "QaasimBookStore\QaasimBookStore.csproj", "{62EFBB68-7E1B-498B-A850-5557051DB5B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QaasimBooks.DataAccess", "QaasimBooks.DataAccess\QaasimBooks.DataAccess.csproj", "{40975D65-D3CF-4E8B-A784-39F545B6327B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QaasimBooks.Models", "QaasimBooks.Models\QaasimBooks.Models.csproj", "{656C9B01-C723-4835-A771-6F74795BCBFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QaasimBooks.Utility", "QaasimBooks.Utility\QaasimBooks.Utility.csproj", "{A32B3D4A-F844-43FF-9871-9CF6D59D462C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{62EFBB68-7E1B-498B-A850-5557051DB5B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62EFBB68-7E1B-498B-A850-5557051DB5B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62EFBB68-7E1B-498B-A850-5557051DB5B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40975D65-D3CF-4E8B-A784-39F545B6327B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40975D65-D3CF-4E8B-A784-39F545B6327B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40975D65-D3CF-4E8B-A784-39F545B6327B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40975D65-D3CF-4E8B-A784-39F545B6327B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{656C9B01-C723-4835-A771-6F74795BCBFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{656C9B01-C723-4835-A771-6F74795BCBFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{656C9B01-C723-4835-A771-6F74795BCBFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{656C9B01-C723-4835-A771-6F74795BCBFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32B3D4A-F844-43FF-9871-9CF6D59D462C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32B3D4A-F844-43FF-9871-9CF6D59D462C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32B3D4A-F844-43FF-9871-9CF6D59D462C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32B3D4A-F844-43FF-9871-9CF6D59D462C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
