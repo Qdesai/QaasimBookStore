@@ -34,10 +34,12 @@
 0142 Completed setting up the bootstrap file.
 0206 added the additional stylesheets and scripts to use in the _Layout.cshtml file.
 0217 added the dropdown list
-0226 i can see the content menagement but i cannot see the actual dropdown menu hope to solve this in the class tomorrow.
+							0226 i can see the content menagement but i cannot see the actual dropdown menu hope to solve this in the class tomorrow.
 0254 added 3 new projects to and moved the data folder to the QaasimBooks.DataAcces.
 0304 installed different pacakages in the QaasimBooks.DataAcceess
 0307 deleted the migrations folder. 
 0336 installed all the packages 
 0338 deleted the default class1.cs files
 0342 as i build the project there is an error in the startup.cs
+0407 modified the models folder name and moved it
+0414 got the error for the ErrorViewModel but resolved it
