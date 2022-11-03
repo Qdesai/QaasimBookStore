@@ -32,3 +32,5 @@
 0128 added " text-white-50 bg-primary " to the footer class of the _Layout.cshtml file.
 0131 removed reference of " text-dark " from the file _LoginPartial.cshtml
 0142 Completed setting up the bootstrap file.
+0206 added the additional stylesheets and scripts to use in the _Layout.cshtml file.
+0217 added the dropdown list
