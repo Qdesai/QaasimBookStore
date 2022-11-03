@@ -50,3 +50,4 @@
 0431 edited the HomeController.sc and added the line [Area("Customer")]
 0440 created a home folder inside the views in Areas
 0450 i moved the home folder under the views into the views folder under the Areas
+1037 moved the _viewimports and _viewstart under the ares folder
