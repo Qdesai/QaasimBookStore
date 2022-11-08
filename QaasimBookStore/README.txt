@@ -61,3 +61,5 @@
 2022-11-8
 
 1030 starting the--- part 2
+1054 added a new migration in the QaasimBook.DataAccess project and the file name is " 20221108154957_DefaultIdentityMigration.cs "
+1057 updated the database 
