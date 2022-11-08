@@ -15,7 +15,7 @@
 1049 works perfectly now going on next 
 1050 creating the github repo..
 
-2022-11-25 
+2022-10-25 
 
 1114 removed the flag (options => options.SignIn.RequireConfirmedAccount = true) form the startup.cs file line 33.
 1121 build the app and ran it.... IT works perfctly!!
@@ -56,4 +56,8 @@
 1046 deleted the data and models and controller folder
 1051 had an error from the start i was not able to get dropdown to work but is solved now cause i added the data-toggle="dropdown"
 1052 added a message so it looks nice
-1053 FINALLYYY DONEEE
+1053 FINALLYYY DONEEE -----------------Assignment part-1
+
+2022-11-8
+
+1030 starting the--- part 2
