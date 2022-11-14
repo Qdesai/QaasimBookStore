@@ -1,5 +1,6 @@
 ﻿/*using Microsoft.AspNet.Identity.EntityFramework;
 */
+using QaasimBooks.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -14,5 +15,6 @@ namespace QaasimBookStore.DataAccess.Data
             : base(options)
         {
         }
+        public DbSet<Category> Categories { get; set; }
     }
 }

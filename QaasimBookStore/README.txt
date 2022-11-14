@@ -69,3 +69,9 @@
 2346 started to work on the assigment again 
 2357 added a new model category model
 2359 added the code for the string name and ID in the category model. 
+
+2022-11-14 
+
+0009 added the migration with add-migration command.
+0019 added the using statement and "public DbSet<Category> Categories { get; set; }"
+0026 again ran the add migration command and gave the error  "" The name 'AddCategoryToDb' is used by an existing migration. ""
