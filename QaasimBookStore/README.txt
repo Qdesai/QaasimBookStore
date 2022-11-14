@@ -84,3 +84,9 @@
 0115 created a Repository.cs class in the Repository folder 
 0119 implemented the potentail fixes and interface
 0126 MOdified teh code to create the constructor and dependency injection DI
+0130 created the interface ICategoryRepository.cs under the iRepository folder 
+0131 created the class file named CategoryRepository.cs class file under the Repository folder 
+0140 modified the CategoryRepository.cs class file and added the using statements and the message for formal parameters
+0144  modified the categoryRepository interface 
+0146 error occered in the CategoryRepository.cs 
+0149 resolved the error and automatically updated the Update() method.
