@@ -80,4 +80,7 @@
 0042 checked the SQL SOE and confirmed then category table in it 
 0045 added the folder named Repository 
 0048 inside the folder added another folder named IRepository
-0050 modified the content and the using statements 
+0059 modified the content and the using statements 
+0115 created a Repository.cs class in the Repository folder 
+0119 implemented the potentail fixes and interface
+0126 MOdified teh code to create the constructor and dependency injection DI
