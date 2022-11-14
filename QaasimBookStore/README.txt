@@ -40,7 +40,7 @@
 0307 deleted the migrations folder. 
 0336 installed all the packages 
 0338 deleted the default class1.cs files
-0342 as i build the project there is an error in the startup.cs
+0342 as i build the project there is an error in the startup.cs 
 0407 modified the models folder name and moved it
 0414 got the error for the ErrorViewModel but resolved it
 0421 created the file called SD.cs
@@ -75,3 +75,5 @@
 0009 added the migration with add-migration command.
 0019 added the using statement and "public DbSet<Category> Categories { get; set; }"
 0026 again ran the add migration command and gave the error  "" The name 'AddCategoryToDb' is used by an existing migration. ""
+0039 removed old migraiton and then added the new migration 
+0041 updated the database 
