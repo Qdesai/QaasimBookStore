@@ -67,3 +67,5 @@
 2022-11-13 
 
 2346 started to work on the assigment again 
+2357 added a new model category model
+2359 added the code for the string name and ID in the category model. 
