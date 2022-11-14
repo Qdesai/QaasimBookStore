@@ -77,3 +77,7 @@
 0026 again ran the add migration command and gave the error  "" The name 'AddCategoryToDb' is used by an existing migration. ""
 0039 removed old migraiton and then added the new migration 
 0041 updated the database 
+0042 checked the SQL SOE and confirmed then category table in it 
+0045 added the folder named Repository 
+0048 inside the folder added another folder named IRepository
+0050 modified the content and the using statements 
