@@ -1,16 +1,21 @@
-﻿/*using Microsoft.AspNetCore.Mvc;
-using QaasimBooks.DataAccess.Repository.IRepository;
+﻿using Microsoft.AspNetCore.Mvc;
 using QaasimBookStore.DataAccess.Data;
+using QaasimBooks.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using QaasimBooks.DataAccess.Repository.IRepository;
 
 namespace QaasimBookStore.Areas.Admin.Controllers
 {
+    [Area("Admin")]
+
     public class CategoryController : Controller
     {
-        private readonly (IUnitOfWork unitOfWork)
+        private readonly IUnitOfWork _unitOfWork;
+
+            public CategoryController(IUnitOfWork unitOfWork)
         {
                 _unitOfWork = unitOfWork;
         }
@@ -20,14 +25,14 @@ namespace QaasimBookStore.Areas.Admin.Controllers
             return View();
         }
 
-    #region API CALLS
-    [HttpGet]
-    public IActionsResult GetAll()
-    {
-        var allObj = _unitOfWork.Category.GetAll();
-        return Json(new { data = allObj });
+    
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            var allObj = _unitOfWork.Category.GetAll();
+            return Json(new { data = allObj });
+        }
     }
+
 }
-#endregion
-}
-*/
+

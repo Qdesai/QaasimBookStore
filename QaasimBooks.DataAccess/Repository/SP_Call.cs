@@ -10,7 +10,7 @@ using System.Text;
 
 namespace QaasimBooks.DataAccess.Repository
 {
-    class SP_Call : ISP_Call
+    public class SP_Call : ISP_Call
     {
         private readonly ApplicationDbContext _db;
         private static string ConnectionString = "";

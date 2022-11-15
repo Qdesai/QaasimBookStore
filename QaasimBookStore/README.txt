@@ -60,7 +60,7 @@
 
 2022-11-8
 
-1030 starting the--- part 2
+1030 Starting the--- part 2
 1054 added a new migration in the QaasimBook.DataAccess project and the file name is " 20221108154957_DefaultIdentityMigration.cs "
 1057 updated the database 
 
@@ -111,4 +111,5 @@
 0141 added the view inside category folder and pasted the code given.
 0151 added link to the category page in _layout page.
 1024 after the whole night of struggle i found that the error is because the interfaces and the classes are not public 
-1025 changed eveythiing to public 
+1025 changed eveythiing to public still have the error of UnitOfWork class
+1033 there was a spelling mistake in the category controller file solved it finally 
