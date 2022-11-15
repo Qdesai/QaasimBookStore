@@ -90,3 +90,6 @@
 0144  modified the categoryRepository interface 
 0146 error occered in the CategoryRepository.cs 
 0149 resolved the error and automatically updated the Update() method.
+1951 added modifiaction to the CategoryRepository.cs 
+2103  realized that i did spelling mistake int the category model so changing it.
+2104 removing the old migration and updating the database again 
