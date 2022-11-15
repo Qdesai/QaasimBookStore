@@ -113,3 +113,4 @@
 1024 after the whole night of struggle i found that the error is because the interfaces and the classes are not public 
 1025 changed eveythiing to public still have the error of UnitOfWork class
 1033 there was a spelling mistake in the category controller file solved it finally 
+1045 completed uptill making the categorycontroller 
