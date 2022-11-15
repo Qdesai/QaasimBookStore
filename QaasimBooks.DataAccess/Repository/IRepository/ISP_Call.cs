@@ -5,7 +5,7 @@ using System.Text;
 
 namespace QaasimBooks.DataAccess.Repository.IRepository
 {
-    interface ISP_Call : IDisposable
+    public interface ISP_Call : IDisposable
     {
         /*T Single<T>(string procedurname, DynamicParameters)*/
 

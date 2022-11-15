@@ -110,3 +110,5 @@
 0119 added a new folder named controllers and in the added a new file CategoryController.cs 
 0141 added the view inside category folder and pasted the code given.
 0151 added link to the category page in _layout page.
+1024 after the whole night of struggle i found that the error is because the interfaces and the classes are not public 
+1025 changed eveythiing to public 

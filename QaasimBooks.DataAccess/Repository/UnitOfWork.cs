@@ -1,12 +1,13 @@
 ﻿using QaasimBooks.DataAccess.Repository.IRepository;
 using QaasimBookStore.DataAccess.Data;
+using QaasimBooks.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace QaasimBooks.DataAccess.Repository
 {
-    class UnitOfWork
+   public class UnitOfWork
     {
         private readonly ApplicationDbContext _db;
 
