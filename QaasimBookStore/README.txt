@@ -108,3 +108,4 @@
 0004 modified the contents of the class UnitOfWork and made sure it implements the interface IUnitOfWork
 0011 added the code to make the interface accessable by the project in the startup file but its showning the namespace error line 36 i will solve it later
 0119 added a new folder named controllers and in the added a new file CategoryController.cs 
+0141 added the view inside category folder and pasted the code given.

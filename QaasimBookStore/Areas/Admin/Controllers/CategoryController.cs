@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using QaasimBooks.DataAccess.Repository.IRepository;
+using QaasimBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,7 +24,9 @@ namespace QaasimBookStore.Areas.Admin.Controllers
     [HttpGet]
     public IActionsResult GetAll()
     {
-
+        var allObj = _unitOfWork.Category.GetAll();
+        return Json(new { data = allObj });
     }
 }
+#endregion
 }
