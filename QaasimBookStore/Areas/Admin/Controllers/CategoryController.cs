@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿/*using Microsoft.AspNetCore.Mvc;
 using QaasimBooks.DataAccess.Repository.IRepository;
 using QaasimBookStore.DataAccess.Data;
 using System;
@@ -30,3 +30,4 @@ namespace QaasimBookStore.Areas.Admin.Controllers
 }
 #endregion
 }
+*/
