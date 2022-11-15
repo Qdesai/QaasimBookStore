@@ -8,7 +8,8 @@ namespace QaasimBooks.Models
     public class Category
     {
         [Key]
-        public int Id { get; set; }
+        /*public int Id { get; set; } i made the casing mistake*/ 
+        public int id { get; set; }
 
         [Display(Name = "Category Name")]
         [Required]

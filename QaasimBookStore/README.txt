@@ -91,5 +91,10 @@
 0146 error occered in the CategoryRepository.cs 
 0149 resolved the error and automatically updated the Update() method.
 1951 added modifiaction to the CategoryRepository.cs 
-2103  realized that i did spelling mistake int the category model so changing it.
-2104 removing the old migration and updating the database again 
+2103 realized that i did spelling mistake int the category model so changing it.
+2115 i am leaving it as it is as i will use the same name from now.
+2120 added a new interface named ISP_Call.cs extends IDisposable  
+2213 installed the package dapper and the statement " using Dapper; "
+2228 modified the contents of ISP_Call.cs file 
+2248 added a new class in the REpository folder and added the statements and implemented  the ISP_Call interface
+2257 added the additional using statements for the connection to the database 

@@ -18,7 +18,7 @@ namespace QaasimBooks.DataAccess.Repository
 
         public void Update(Category category)
         {
-            var objFromDb = _db.Categories.FirstOrDefault(s => s.Id == category.Id);
+            var objFromDb = _db.Categories.FirstOrDefault(s => s.id == category.id);
             if (objFromDb != null)
             {
                 objFromDb.Name = category.Name;
