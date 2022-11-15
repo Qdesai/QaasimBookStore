@@ -74,7 +74,7 @@
 
 0009 added the migration with add-migration command.
 0019 added the using statement and "public DbSet<Category> Categories { get; set; }"
-0026 again ran the add migration command and gave the error  "" The name 'AddCategoryToDb' is used by an existing migration. ""
+0026 ERROR again ran the add migration command and gave the error  "" The name 'AddCategoryToDb' is used by an existing migration. ""
 0039 removed old migraiton and then added the new migration 
 0041 updated the database 
 0042 checked the SQL SOE and confirmed then category table in it 
@@ -98,3 +98,13 @@
 2228 modified the contents of ISP_Call.cs file 
 2248 added a new class in the REpository folder and added the statements and implemented  the ISP_Call interface
 2257 added the additional using statements for the connection to the database 
+2302 added the additional statements "  using Microsoft.Data.SqlClient; "
+2355 added the new interface named UnitOfWork under the IRepository folder 
+2358 modified the contents of it 
+2359 added the new class named UnitOfWork.cs 
+
+2022-11-15 
+
+0004 modified the contents of the class UnitOfWork and made sure it implements the interface IUnitOfWork
+0011 added the code to make the interface accessable by the project in the startup file but its showning the namespace error line 36 i will solve it later
+0119 added a new folder named controllers and in the added a new file CategoryController.cs 

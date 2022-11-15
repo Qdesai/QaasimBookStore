@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using QaasimBooks.DataAccess.Repository.IRepository;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
@@ -32,6 +33,7 @@ namespace QaasimBookStore
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>() // removed the options flag.   options => options.SignIn.RequireConfirmedAccount = true
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            //services.AddScoped<IUnitOfWork, UnitOfWork>();          // add the using statement 
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
