@@ -120,8 +120,17 @@
 				from 'QaasimBooks.DataAccess.Repository.UnitOfWork' to 'QaasimBooks.DataAccess.Repository.IRepository.IUnitOfWork'.	
 				QaasimBookStore	C:\Users\qaasi\Source\Repos\Qdesai\QaasimBookStore\QaasimBookStore\Startup.cs	
 
+2022-11-19 
+
+1530 it has been 3 days i am trying to solve this ****** error 
+1659 i tried to modify the <itemgroup> in the QaasimBookStore.csproj file.
+THIS error caused me a lot of time and because of this i cannot move any further.
+
 
 2022-11-23 
 
 1908 FINALLY AFTER TRYING FOR 6 DAYS I GOT A SOLUTION FOR THE ERROR there was a mistake in the class UnitOfWork and i added the reference " : IUnitOfWork "
-1914 
+1914 added the category.js file in the www.root/js folder 
+1954 added the upsert method in the CategoryController 
+2002 Createed a new view Upsert.cshtml
+2026 added a new partial view to the Views/ folder
