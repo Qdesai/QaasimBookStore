@@ -140,3 +140,7 @@ THIS error caused me a lot of time and because of this i cannot move any further
 2042 chaged the contents of the file Upsert.cshtml
 2245 i was not able to navigate in the application so i added the controller routes
 2339 At last i found out where the problem was i pasted the _viewsImports and viewStart file in the Category folder 
+2339 created and upsert post method in the category controller 
+2346  added the delete method in the categoryController 
+
+Started part3 
