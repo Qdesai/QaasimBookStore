@@ -114,3 +114,14 @@
 1025 changed eveythiing to public still have the error of UnitOfWork class
 1033 there was a spelling mistake in the category controller file solved it finally 
 1045 completed uptill making the categorycontroller 
+1345 ERROR:
+				The type 'QaasimBooks.DataAccess.Repository.UnitOfWork' cannot be used as type parameter 'TImplementation' in the generic type or method 
+				'ServiceCollectionServiceExtensions.AddScoped<TService, TImplementation>(IServiceCollection)'. There is no implicit reference conversion 
+				from 'QaasimBooks.DataAccess.Repository.UnitOfWork' to 'QaasimBooks.DataAccess.Repository.IRepository.IUnitOfWork'.	
+				QaasimBookStore	C:\Users\qaasi\Source\Repos\Qdesai\QaasimBookStore\QaasimBookStore\Startup.cs	
+
+
+2022-11-23 
+
+1908 FINALLY AFTER TRYING FOR 6 DAYS I GOT A SOLUTION FOR THE ERROR there was a mistake in the class UnitOfWork and i added the reference " : IUnitOfWork "
+1914 
