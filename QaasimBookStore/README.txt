@@ -134,3 +134,7 @@ THIS error caused me a lot of time and because of this i cannot move any further
 1954 added the upsert method in the CategoryController 
 2002 Createed a new view Upsert.cshtml
 2026 added a new partial view to the Views/ folder
+2034 added contents to the _CreateAndBackToListButton.cshtml file
+2036 added a new view _EditAndBackToListButton.cshtml file 
+2040 added contents to _EditAndBackToListButton.cshtml file
+2042 added @model QaasimBooks.Models.Category; satement to the Upsert.cshtml
