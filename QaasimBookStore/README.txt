@@ -144,3 +144,9 @@ THIS error caused me a lot of time and because of this i cannot move any further
 2346  added the delete method in the categoryController 
 
 Started part3 
+2348 ran the app nthing shows up. it says the save() method is not defined 
+2350 created the CoverType.cs in the models folder
+
+2022-11-24
+0105 Error System.NotImplementedException: 'The method or operation is not implemented.'
+0205 stuck on this error trying to find a solution

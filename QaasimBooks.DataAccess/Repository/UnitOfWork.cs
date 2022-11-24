@@ -26,7 +26,7 @@ namespace QaasimBooks.DataAccess.Repository
             _db.Dispose();
         }
 
-        public void save()
+        public void Save()
         {
             _db.SaveChanges();
         }

@@ -56,7 +56,7 @@ namespace QaasimBookStore.Areas.Admin.Controllers
                 {
                     _unitOfWork.Category.Update(category);
                 }
-                /*_unitOfWork.Save();*/
+                _unitOfWork.Save();
                 return RedirectToAction(nameof(Index));
             }
             return View(category);
@@ -78,7 +78,7 @@ namespace QaasimBookStore.Areas.Admin.Controllers
                 return Json(new { success = false, message = "Error while deleteing" });
             }
             _unitOfWork.Category.Remove(objFromDb);
-            /*_unitOfWork.Save();*/
+            _unitOfWork.Save();
             return Json(new { success = true, message = "Delete successful" });
         }
     }
