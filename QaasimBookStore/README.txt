@@ -137,4 +137,6 @@ THIS error caused me a lot of time and because of this i cannot move any further
 2034 added contents to the _CreateAndBackToListButton.cshtml file
 2036 added a new view _EditAndBackToListButton.cshtml file 
 2040 added contents to _EditAndBackToListButton.cshtml file
-2042 added @model QaasimBooks.Models.Category; satement to the Upsert.cshtml
+2042 chaged the contents of the file Upsert.cshtml
+2245 i was not able to navigate in the application so i added the controller routes
+2339 At last i found out where the problem was i pasted the _viewsImports and viewStart file in the Category folder 
