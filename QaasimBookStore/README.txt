@@ -150,3 +150,22 @@ Started part3
 2022-11-24
 0105 Error System.NotImplementedException: 'The method or operation is not implemented.'
 0205 stuck on this error trying to find a solution
+
+2022-11-25
+1655 created the file CovertypeRepository.cs
+1512 added the contents to the file 
+1520 created the interface ICoverTypeRepository.cs
+1525 added the contents to the file
+1602 added the link to the ICoverTypeRepository and the CoverTypeRepository
+
+2022-11-28
+
+1853 going to add the migration to the database for the covertype
+1909 added migration 20221129000441_AddCoverTypeToDb
+1917 added the link to Cover Type page in the nav bar
+1920 created the controller named CoverTypeController 
+1940 added all the mehods and links to the CoverTypeController.cs 
+1942 created the folder named CoverType under the Views
+1950 added the index.cshtml file 
+1951 added the coverType.js file 
+1957 added contents to the js file 
