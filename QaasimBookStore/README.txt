@@ -206,3 +206,5 @@ Started part3
 1040 I had an error form the beging " namespace in ProductVM and Productcontroller "
 1041 Installed the package Microsoft.AspNetCore.Mvc.ViewFeatures
 1042 Error resolved 
+1123 I had an error in the from part 2 i was not able to create the category cause i missed pasting the contents form the Repository.cs
+1124 pasted the contents from the repository.cs that was provided
