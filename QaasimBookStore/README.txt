@@ -170,3 +170,5 @@ Started part3
 1951 added the coverType.js file 
 1957 added contents to the js file 
 2004 added the connection between the view and the js file <script src="~/js/coverType.js"></script>
+2009 created the upsert.cshtml view file 
+2013 added the contents to the file 
