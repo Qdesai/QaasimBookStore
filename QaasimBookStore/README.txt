@@ -203,3 +203,6 @@ Started part3
 0132 modified the iNDEX VIEW OF THE PRODUCTS 
 0134 modified the product.js file 
 0138 added products in the nav link 
+1040 I had an error form the beging " namespace in ProductVM and Productcontroller "
+1041 Installed the package Microsoft.AspNetCore.Mvc.ViewFeatures
+1042 Error resolved 
