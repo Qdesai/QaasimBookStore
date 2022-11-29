@@ -157,8 +157,6 @@ Started part3
 1520 created the interface ICoverTypeRepository.cs
 1525 added the contents to the file
 1602 added the link to the ICoverTypeRepository and the CoverTypeRepository
-
-2022-11-26
 1201  found my mistake so i added this in the ApplicationDbContext.cs file 
 		public DbSet<Category> Categories { get; set; }
         public DbSet<CoverType> CoverTypes { get; set; }
@@ -186,3 +184,7 @@ Started part3
 2248 added the new migration 20221129034432_AddValidationToProduct
 2305 createed a new file ProductRepository 
 2311 added contents to the file
+2315 created the IProductRepository file 
+2319  added contents to it
+2323 added product to Iunitofwork and unitofwork
+2324 no errors in the code running it 
