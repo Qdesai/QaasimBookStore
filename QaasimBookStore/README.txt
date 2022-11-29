@@ -184,3 +184,5 @@ Started part3
 2223 added the migration "AddProductToDb"  to the database 20221129033148_AddProductToDb
 2242 changed the contents of the products model so the Title, ISBN, Author are required.
 2248 added the new migration 20221129034432_AddValidationToProduct
+2305 createed a new file ProductRepository 
+2311 added contents to the file
