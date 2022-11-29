@@ -188,3 +188,4 @@ Started part3
 2319  added contents to it
 2323 added product to Iunitofwork and unitofwork
 2324 no errors in the code running it 
+2327 added the ProductController
