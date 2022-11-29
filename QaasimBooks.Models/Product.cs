@@ -16,12 +16,16 @@ namespace QaasimBooks.Models
 
         public int id { get; set; }
 
+        [Required]
         public string Title { get; set; }
+
 
         public string Description { get; set; }
 
+        [Required]
         public string ISBN { get; set; }
 
+        [Required]
         public string Author { get; set; }
 
         [Required]
@@ -35,19 +39,18 @@ namespace QaasimBooks.Models
 
 
         [Required]
-
         public int Categoryid { get; set; }     // foreign key reference
 
-        [ForeignKey("Categoryid")]
 
+        [ForeignKey("Categoryid")]
         public Category Category { get; set; }
 
-        [Required]
 
+        [Required]
         public int CoverTypeid { get; set; }    // foreign key reference
 
-        [ForeignKey("Categoryid")]
 
+        [ForeignKey("Categoryid")]
         public CoverType CoverType { get; set; }
 
     }

@@ -182,3 +182,5 @@ Started part3
 2215 trying to do the migration update but it was failing again and again 
 2221 there was an syantax error missing "}" so added that add good to go 
 2223 added the migration "AddProductToDb"  to the database 20221129033148_AddProductToDb
+2242 changed the contents of the products model so the Title, ISBN, Author are required.
+2248 added the new migration 20221129034432_AddValidationToProduct
