@@ -189,3 +189,4 @@ Started part3
 2323 added product to Iunitofwork and unitofwork
 2324 no errors in the code running it 
 2327 added the ProductController
+2357 added the product.js file 
