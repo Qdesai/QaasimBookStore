@@ -190,3 +190,7 @@ Started part3
 2324 no errors in the code running it 
 2327 added the ProductController
 2357 added the product.js file 
+
+2022-11-29
+
+0032 added the Index and Upsert view 
