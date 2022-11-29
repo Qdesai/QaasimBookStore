@@ -172,3 +172,5 @@ Started part3
 2004 added the connection between the view and the js file <script src="~/js/coverType.js"></script>
 2009 created the upsert.cshtml view file 
 2013 added the contents to the file 
+2018 added the model file " Product.cs " 
+2211 added contents to the Product.cs file					// Ask andrew about the Categoryid and CategoryId
