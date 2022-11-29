@@ -158,6 +158,11 @@ Started part3
 1525 added the contents to the file
 1602 added the link to the ICoverTypeRepository and the CoverTypeRepository
 
+2022-11-26
+1201  found my mistake so i added this in the ApplicationDbContext.cs file 
+		public DbSet<Category> Categories { get; set; }
+        public DbSet<CoverType> CoverTypes { get; set; }
+
 2022-11-28
 
 1853 going to add the migration to the database for the covertype
@@ -174,3 +179,6 @@ Started part3
 2013 added the contents to the file 
 2018 added the model file " Product.cs " 
 2211 added contents to the Product.cs file					// Ask andrew about the Categoryid and CategoryId
+2215 trying to do the migration update but it was failing again and again 
+2221 there was an syantax error missing "}" so added that add good to go 
+2223 added the migration "AddProductToDb"  to the database 20221129033148_AddProductToDb

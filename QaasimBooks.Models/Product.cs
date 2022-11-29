@@ -14,7 +14,7 @@ namespace QaasimBooks.Models
 
         [Key]
 
-        public int Id { get; set; }
+        public int id { get; set; }
 
         public string Title { get; set; }
 
@@ -49,3 +49,6 @@ namespace QaasimBooks.Models
         [ForeignKey("Categoryid")]
 
         public CoverType CoverType { get; set; }
+
+    }
+}
