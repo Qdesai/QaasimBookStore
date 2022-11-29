@@ -202,3 +202,4 @@ Started part3
 0123 Modified the API call to include the category and covertype properties
 0132 modified the iNDEX VIEW OF THE PRODUCTS 
 0134 modified the product.js file 
+0138 added products in the nav link 
