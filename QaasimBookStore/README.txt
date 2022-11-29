@@ -194,3 +194,11 @@ Started part3
 2022-11-29
 
 0032 added the Index and Upsert view 
+0045 created the ProductVM 
+0053 added contents to the ProductVM class 
+0054 had an error for the namespace 
+0114 completed the changes in the ProductController
+0117 still there is the error of the namespace in ProductVM and Productcontroller 
+0123 Modified the API call to include the category and covertype properties
+0132 modified the iNDEX VIEW OF THE PRODUCTS 
+0134 modified the product.js file 
