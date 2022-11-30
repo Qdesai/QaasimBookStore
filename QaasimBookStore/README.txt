@@ -208,3 +208,5 @@ Started part3
 1042 Error resolved 
 1123 I had an error in the from part 2 i was not able to create the category cause i missed pasting the contents form the Repository.cs
 1124 pasted the contents from the repository.cs that was provided
+2313 when i try to add a product it gives me an error 
+2315 found the error and it is in the database
