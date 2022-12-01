@@ -58,7 +58,7 @@ namespace QaasimBookStore.Areas.Admin.Controllers
             return View(productVM);
         }
 
-        [HttpPost]
+        /*[HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(Product product)
         {
@@ -66,6 +66,25 @@ namespace QaasimBookStore.Areas.Admin.Controllers
             {
                 if(product.id == 0)
                 {
+                    _unitOfWork.Product.Add(product);
+                }
+                else
+                {
+                    _unitOfWork.Product.Update(product);
+                }
+                _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(product);
+        }*/
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Upsert (Product product)
+        {
+            if (ModelState.IsValid)
+            {
+                if(product.id == 0){
                     _unitOfWork.Product.Add(product);
                 }
                 else

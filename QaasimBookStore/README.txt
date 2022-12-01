@@ -218,3 +218,8 @@ Started part3
 2256 creating an account with tiny for using the api 
 2343 added the api and the link to tiny in the upsert view file
 2350 had an  error in the upsert file some of the method were not changed to Product.id so changed it.
+2351 ran he file and i didnt see the changes in the file
+
+
+2022-12-01 
+0104 added the new upsert method in the product upsert method 
