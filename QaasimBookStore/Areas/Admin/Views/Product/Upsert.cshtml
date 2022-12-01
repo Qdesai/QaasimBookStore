@@ -1,4 +1,4 @@
-﻿@model QaasimBooks.Models.Product;
+﻿@model QaasimBooks.Models.ViewModels.ProductVM;
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -8,9 +8,10 @@
 <form method="post">
     <div class="row p-3 border">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-        @if (Model.id != 0)
+        @if (Model.Product.id != 0)
         {
             title = "Edit Product";
+            <input type="hidden" asp-for="Product.id" />
         }
         <div class="col-12 border-bottom">
             <h2 class="text-primary">@title</h2>
@@ -18,18 +19,18 @@
         <div class="col-8 pt-4">
             <div class="form-group row">
                 <div class="col-4">
-                    <label asp-for="Title"></label>
+                    <label asp-for="Product.Title"></label>
                 </div>
                 <div class="col-8">
-                    <input asp-for="Title" class="form-control" />
-                    <span asp-validation-for="Title" class="text-danger"></span>
+                    <input asp-for="Product.Title" class="form-control" />
+                    <span asp-validation-for="Product.Title" class="text-danger"></span>
                 </div>
             </div>
             <div class="form-group row">
                 <div class="col-8 offset-4">
-                    @if (Model.id != 0)
+                    @if (Model.Product.id != 0)
                     {
-                        <partial name="_EditAndBackToListButton" model="Model.id" />
+                        <partial name="_EditAndBackToListButton" model="Model.Product.id" />
                     }
                     else
                     {
@@ -43,4 +44,23 @@
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script src="https://cdn.tiny.cloud/1/0fekgynj3ktpwvciloy7euovwal1vxyy2k8cyvi8kxplrfa9/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            plugins: 'lists',
+            menubar: 'file edit format'
+        });
+
+        function validateInput() {
+            if (document.getElementById("uploadBox").value = "") {
+                swal("Error", "please select an image ", "error");
+                return false;
+            }
+            return true;
+        }
+   </script>
+
+
 }

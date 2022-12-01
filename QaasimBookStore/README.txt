@@ -210,3 +210,11 @@ Started part3
 1124 pasted the contents from the repository.cs that was provided
 2313 when i try to add a product it gives me an error 
 2315 found the error and it is in the database
+
+2022-11-30 
+
+2058 tried to create the product table again but its not happning 
+2206 modified the upsert view of the products 
+2256 creating an account with tiny for using the api 
+2343 added the api and the link to tiny in the upsert view file
+2350 had an  error in the upsert file some of the method were not changed to Product.id so changed it.
