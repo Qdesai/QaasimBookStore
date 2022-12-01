@@ -223,3 +223,6 @@ Started part3
 
 2022-12-01 
 0104 added the new upsert method in the product upsert method 
+0122 solved the problem that i had by adding the view contents form the file provided.
+0123 the product upsert view looks perfect 
+0124 still i have the error form the database 
