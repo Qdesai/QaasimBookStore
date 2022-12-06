@@ -50,7 +50,7 @@ namespace QaasimBooks.Models
         public int CoverTypeid { get; set; }    // foreign key reference
 
 
-        [ForeignKey("Categoryid")]
+        [ForeignKey("CoverTypeid")]             //This was CategoryId when i created the migration 
         public CoverType CoverType { get; set; }
 
     }

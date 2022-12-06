@@ -226,3 +226,13 @@ Started part3
 0122 solved the problem that i had by adding the view contents form the file provided.
 0123 the product upsert view looks perfect 
 0124 still i have the error form the database 
+
+1130 I changed the products file it didnt work 
+1145 i deleted the products database and re run the migration it didnt work tooo 
+1150 i am STUCKKKK AND ANNOT MAKE ANY PROGRESS SO I WILL DISCUSS THIS WITH PROFESSOR IN CLASS
+1158 i even tried to create a new migration and update the 
+
+2022-11-06
+
+
+1057 i tried to solve the issue in class 
