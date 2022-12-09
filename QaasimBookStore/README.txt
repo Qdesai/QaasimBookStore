@@ -232,7 +232,20 @@ Started part3
 1150 i am STUCKKKK AND ANNOT MAKE ANY PROGRESS SO I WILL DISCUSS THIS WITH PROFESSOR IN CLASS
 1158 i even tried to create a new migration and update the 
 
-2022-11-06
+2022-12-06
 
-
+1056 it gives me this error while adding the products 
+		
+		System.NullReferenceException: 'Object reference not set to an instance of an object.'
+		QaasimBooks.DataAccess.Repository.IRepository.IUnitOfWork.Product.get returned null.	
+		
 1057 i tried to solve the issue in class 
+
+2022-12-08
+
+1920 i created the products file manually while looking at my previous files and i updated the previous query so a Products table was created.
+1940 UPtill now everything was fine but now i have 2 problems 
+	1. i cannot navigate to the page 
+	2. i got an error while adding products
+
+1952  tried to solve the error it gives while adding the product to the database 

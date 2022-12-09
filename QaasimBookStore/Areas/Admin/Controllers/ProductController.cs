@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using QaasimBooks.Models.ViewModels;
-using QaasimBookStore.DataAccess.Data;
 using QaasimBooks.Models;
+using QaasimBookStore.DataAccess.Data;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -86,6 +86,7 @@ namespace QaasimBookStore.Areas.Admin.Controllers
             {
                 if(product.id == 0){
                     _unitOfWork.Product.Add(product);
+                    _unitOfWork.Save();
                 }
                 else
                 {
@@ -100,7 +101,7 @@ namespace QaasimBookStore.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            var allObj = _unitOfWork.Product.GetAll(includeProperties:"Category, CoverType");
+            var allObj = _unitOfWork.Product.GetAll(includeProperties:"Category,CoverType");
             return Json(new { data = allObj });
         }
 
