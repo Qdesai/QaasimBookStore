@@ -98,6 +98,7 @@ namespace QaasimBookStore.Areas.Admin.Controllers
             return View(product);
         }
 
+        #region API CALLS   
         [HttpGet]
         public IActionResult GetAll()
         {
@@ -117,5 +118,6 @@ namespace QaasimBookStore.Areas.Admin.Controllers
             _unitOfWork.Save();
             return Json(new { success = true, message = "Delete successful" });
         }
+        #endregion
     }
 }

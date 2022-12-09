@@ -234,7 +234,7 @@ Started part3
 
 2022-12-06
 
-1056 it gives me this error while adding the products 
+1056 it gives me this error while adding the products in the productController.cs file
 		
 		System.NullReferenceException: 'Object reference not set to an instance of an object.'
 		QaasimBooks.DataAccess.Repository.IRepository.IUnitOfWork.Product.get returned null.	
@@ -244,8 +244,9 @@ Started part3
 2022-12-08
 
 1920 i created the products file manually while looking at my previous files and i updated the previous query so a Products table was created.
-1940 UPtill now everything was fine but now i have 2 problems 
+1952 by adding #endRegion at the end of the productController.cs file, I tried to solve the error it gives while adding the product to the database 
+2002 tried my best to solve this issue but it dosent go.
+
+2003 UPtill now everything was fine but now i have 2 problems 
 	1. i cannot navigate to the page 
 	2. i got an error while adding products
-
-1952  tried to solve the error it gives while adding the product to the database 
